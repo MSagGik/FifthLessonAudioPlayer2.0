@@ -15,7 +15,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 public class MainActivity extends AppCompatActivity  implements Runnable{
 
     // создание полей
-    private MediaPlayer mediaPlayer = new MediaPlayer(); // создание поля медиа-плейера
+    private MediaPlayer mediaPlayer = new MediaPlayer(); // создание поля медиа-плеера
     private SeekBar seekBar; // создание поля SeekBar
     private boolean wasPlaying = false; // поле проигрывания аудио-файла
     private FloatingActionButton fabPlayPause; // поле кнопки проигрывания и постановки на паузу аудиофайла
